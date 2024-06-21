@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe4e1;
+            font-family: 'Courier New', Courier, monospace;
+            color: #ff69b4;
+        }
+        .letter {
+            border: 2px solid #ff1493;
+            padding: 20px;
+            background-color: #fff0f5;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .heart {
+            color: #ff69b4;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <h1>Happy Monthsarry Love <span class="heart">&lt;33</span></h1>
+    </div>
+</body>
+</html>
